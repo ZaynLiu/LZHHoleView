@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0A1CF811E68010100959AB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A1CF801E68010100959AB3 /* main.m */; };
+		C0A1CF841E68010100959AB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A1CF831E68010100959AB3 /* AppDelegate.m */; };
+		C0A1CF871E68010100959AB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A1CF861E68010100959AB3 /* ViewController.m */; };
+		C0A1CF8A1E68010100959AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A1CF881E68010100959AB3 /* Main.storyboard */; };
+		C0A1CF8C1E68010100959AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A1CF8B1E68010100959AB3 /* Assets.xcassets */; };
+		C0A1CF8F1E68010100959AB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A1CF8D1E68010100959AB3 /* LaunchScreen.storyboard */; };
+		C0A1CF9A1E68010100959AB3 /* LZHHoleViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A1CF991E68010100959AB3 /* LZHHoleViewDemoTests.m */; };
+		C0A1CFA51E68010100959AB3 /* LZHHoleViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A1CFA41E68010100959AB3 /* LZHHoleViewDemoUITests.m */; };
+		C0A1CFB51E68015C00959AB3 /* LZHHoleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A1CFB41E68015C00959AB3 /* LZHHoleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0A1CF961E68010100959AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0A1CF741E68010100959AB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0A1CF7B1E68010100959AB3;
+			remoteInfo = LZHHoleViewDemo;
+		};
+		C0A1CFA11E68010100959AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0A1CF741E68010100959AB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0A1CF7B1E68010100959AB3;
+			remoteInfo = LZHHoleViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0A1CF7C1E68010100959AB3 /* LZHHoleViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZHHoleViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A1CF801E68010100959AB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0A1CF821E68010100959AB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0A1CF831E68010100959AB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0A1CF851E68010100959AB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0A1CF861E68010100959AB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0A1CF891E68010100959AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0A1CF8B1E68010100959AB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0A1CF8E1E68010100959AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0A1CF901E68010100959AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A1CF951E68010100959AB3 /* LZHHoleViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZHHoleViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A1CF991E68010100959AB3 /* LZHHoleViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZHHoleViewDemoTests.m; sourceTree = "<group>"; };
+		C0A1CF9B1E68010100959AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A1CFA01E68010100959AB3 /* LZHHoleViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZHHoleViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A1CFA41E68010100959AB3 /* LZHHoleViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZHHoleViewDemoUITests.m; sourceTree = "<group>"; };
+		C0A1CFA61E68010100959AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A1CFB31E68015C00959AB3 /* LZHHoleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHHoleView.h; sourceTree = "<group>"; };
+		C0A1CFB41E68015C00959AB3 /* LZHHoleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHHoleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0A1CF791E68010100959AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A1CF921E68010100959AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A1CF9D1E68010100959AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0A1CF731E68010100959AB3 = {
+			isa = PBXGroup;
+			children = (
+				C0A1CF7E1E68010100959AB3 /* LZHHoleViewDemo */,
+				C0A1CF981E68010100959AB3 /* LZHHoleViewDemoTests */,
+				C0A1CFA31E68010100959AB3 /* LZHHoleViewDemoUITests */,
+				C0A1CF7D1E68010100959AB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0A1CF7D1E68010100959AB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0A1CF7C1E68010100959AB3 /* LZHHoleViewDemo.app */,
+				C0A1CF951E68010100959AB3 /* LZHHoleViewDemoTests.xctest */,
+				C0A1CFA01E68010100959AB3 /* LZHHoleViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0A1CF7E1E68010100959AB3 /* LZHHoleViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C0A1CFB21E68014600959AB3 /* LZHHoleView */,
+				C0A1CF821E68010100959AB3 /* AppDelegate.h */,
+				C0A1CF831E68010100959AB3 /* AppDelegate.m */,
+				C0A1CF851E68010100959AB3 /* ViewController.h */,
+				C0A1CF861E68010100959AB3 /* ViewController.m */,
+				C0A1CF881E68010100959AB3 /* Main.storyboard */,
+				C0A1CF8B1E68010100959AB3 /* Assets.xcassets */,
+				C0A1CF8D1E68010100959AB3 /* LaunchScreen.storyboard */,
+				C0A1CF901E68010100959AB3 /* Info.plist */,
+				C0A1CF7F1E68010100959AB3 /* Supporting Files */,
+			);
+			path = LZHHoleViewDemo;
+			sourceTree = "<group>";
+		};
+		C0A1CF7F1E68010100959AB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0A1CF801E68010100959AB3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0A1CF981E68010100959AB3 /* LZHHoleViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0A1CF991E68010100959AB3 /* LZHHoleViewDemoTests.m */,
+				C0A1CF9B1E68010100959AB3 /* Info.plist */,
+			);
+			path = LZHHoleViewDemoTests;
+			sourceTree = "<group>";
+		};
+		C0A1CFA31E68010100959AB3 /* LZHHoleViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0A1CFA41E68010100959AB3 /* LZHHoleViewDemoUITests.m */,
+				C0A1CFA61E68010100959AB3 /* Info.plist */,
+			);
+			path = LZHHoleViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		C0A1CFB21E68014600959AB3 /* LZHHoleView */ = {
+			isa = PBXGroup;
+			children = (
+				C0A1CFB31E68015C00959AB3 /* LZHHoleView.h */,
+				C0A1CFB41E68015C00959AB3 /* LZHHoleView.m */,
+			);
+			path = LZHHoleView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0A1CF7B1E68010100959AB3 /* LZHHoleViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A1CFA91E68010100959AB3 /* Build configuration list for PBXNativeTarget "LZHHoleViewDemo" */;
+			buildPhases = (
+				C0A1CF781E68010100959AB3 /* Sources */,
+				C0A1CF791E68010100959AB3 /* Frameworks */,
+				C0A1CF7A1E68010100959AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZHHoleViewDemo;
+			productName = LZHHoleViewDemo;
+			productReference = C0A1CF7C1E68010100959AB3 /* LZHHoleViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0A1CF941E68010100959AB3 /* LZHHoleViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A1CFAC1E68010100959AB3 /* Build configuration list for PBXNativeTarget "LZHHoleViewDemoTests" */;
+			buildPhases = (
+				C0A1CF911E68010100959AB3 /* Sources */,
+				C0A1CF921E68010100959AB3 /* Frameworks */,
+				C0A1CF931E68010100959AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0A1CF971E68010100959AB3 /* PBXTargetDependency */,
+			);
+			name = LZHHoleViewDemoTests;
+			productName = LZHHoleViewDemoTests;
+			productReference = C0A1CF951E68010100959AB3 /* LZHHoleViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0A1CF9F1E68010100959AB3 /* LZHHoleViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A1CFAF1E68010100959AB3 /* Build configuration list for PBXNativeTarget "LZHHoleViewDemoUITests" */;
+			buildPhases = (
+				C0A1CF9C1E68010100959AB3 /* Sources */,
+				C0A1CF9D1E68010100959AB3 /* Frameworks */,
+				C0A1CF9E1E68010100959AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0A1CFA21E68010100959AB3 /* PBXTargetDependency */,
+			);
+			name = LZHHoleViewDemoUITests;
+			productName = LZHHoleViewDemoUITests;
+			productReference = C0A1CFA01E68010100959AB3 /* LZHHoleViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0A1CF741E68010100959AB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "ZhenHui Liu";
+				TargetAttributes = {
+					C0A1CF7B1E68010100959AB3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+					C0A1CF941E68010100959AB3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0A1CF7B1E68010100959AB3;
+					};
+					C0A1CF9F1E68010100959AB3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0A1CF7B1E68010100959AB3;
+					};
+				};
+			};
+			buildConfigurationList = C0A1CF771E68010100959AB3 /* Build configuration list for PBXProject "LZHHoleViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0A1CF731E68010100959AB3;
+			productRefGroup = C0A1CF7D1E68010100959AB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0A1CF7B1E68010100959AB3 /* LZHHoleViewDemo */,
+				C0A1CF941E68010100959AB3 /* LZHHoleViewDemoTests */,
+				C0A1CF9F1E68010100959AB3 /* LZHHoleViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0A1CF7A1E68010100959AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A1CF8F1E68010100959AB3 /* LaunchScreen.storyboard in Resources */,
+				C0A1CF8C1E68010100959AB3 /* Assets.xcassets in Resources */,
+				C0A1CF8A1E68010100959AB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A1CF931E68010100959AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A1CF9E1E68010100959AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0A1CF781E68010100959AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A1CF871E68010100959AB3 /* ViewController.m in Sources */,
+				C0A1CFB51E68015C00959AB3 /* LZHHoleView.m in Sources */,
+				C0A1CF841E68010100959AB3 /* AppDelegate.m in Sources */,
+				C0A1CF811E68010100959AB3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A1CF911E68010100959AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A1CF9A1E68010100959AB3 /* LZHHoleViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A1CF9C1E68010100959AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A1CFA51E68010100959AB3 /* LZHHoleViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0A1CF971E68010100959AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0A1CF7B1E68010100959AB3 /* LZHHoleViewDemo */;
+			targetProxy = C0A1CF961E68010100959AB3 /* PBXContainerItemProxy */;
+		};
+		C0A1CFA21E68010100959AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0A1CF7B1E68010100959AB3 /* LZHHoleViewDemo */;
+			targetProxy = C0A1CFA11E68010100959AB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0A1CF881E68010100959AB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A1CF891E68010100959AB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0A1CF8D1E68010100959AB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A1CF8E1E68010100959AB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0A1CFA71E68010100959AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0A1CFA81E68010100959AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0A1CFAA1E68010100959AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LZHHoleViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zayn.LZHHoleViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0A1CFAB1E68010100959AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LZHHoleViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zayn.LZHHoleViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0A1CFAD1E68010100959AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LZHHoleViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zayn.LZHHoleViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZHHoleViewDemo.app/LZHHoleViewDemo";
+			};
+			name = Debug;
+		};
+		C0A1CFAE1E68010100959AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LZHHoleViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zayn.LZHHoleViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZHHoleViewDemo.app/LZHHoleViewDemo";
+			};
+			name = Release;
+		};
+		C0A1CFB01E68010100959AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LZHHoleViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zayn.LZHHoleViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LZHHoleViewDemo;
+			};
+			name = Debug;
+		};
+		C0A1CFB11E68010100959AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LZHHoleViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zayn.LZHHoleViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LZHHoleViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0A1CF771E68010100959AB3 /* Build configuration list for PBXProject "LZHHoleViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A1CFA71E68010100959AB3 /* Debug */,
+				C0A1CFA81E68010100959AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A1CFA91E68010100959AB3 /* Build configuration list for PBXNativeTarget "LZHHoleViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A1CFAA1E68010100959AB3 /* Debug */,
+				C0A1CFAB1E68010100959AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0A1CFAC1E68010100959AB3 /* Build configuration list for PBXNativeTarget "LZHHoleViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A1CFAD1E68010100959AB3 /* Debug */,
+				C0A1CFAE1E68010100959AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0A1CFAF1E68010100959AB3 /* Build configuration list for PBXNativeTarget "LZHHoleViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A1CFB01E68010100959AB3 /* Debug */,
+				C0A1CFB11E68010100959AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0A1CF741E68010100959AB3 /* Project object */;
+}
